@@ -16,3 +16,4 @@ export class NewpassPage implements OnInit {
   }
 
 }
+
