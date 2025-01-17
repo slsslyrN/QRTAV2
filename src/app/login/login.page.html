@@ -1,0 +1,35 @@
+<ion-content class="ion-padding">
+
+  
+  <!--contenedor del logo-->
+
+  <div class="logo-container">
+    <img src="assets/icon/logoAPTAPT.png" alt="Logo" class="app-logo">
+  </div>
+
+
+  <!--2do contenedor del login-->
+
+  <ion-item lines="full">
+    <ion-label position="floating">Correo Electrónico</ion-label>sw
+    <ion-input type="email" placeholder="ejemplo@dominio.com"></ion-input>
+  </ion-item>
+
+  <ion-item lines="full">
+    <ion-label position="floating">Contraseña</ion-label>
+    <ion-input type="password" placeholder="********"></ion-input>
+  </ion-item>
+
+
+  <!--botón para-->
+
+  <ion-button expand="full" routerLink="/home">Iniciar Sesión</ion-button>
+
+
+  <!-- Recuperar la contraseña -->
+
+  <div class="forgot-password">
+    <p>¿No recuerdas tu clave?</p>
+    <a routerLink="/newpass" routerLinkActive="Active">RECUPERAR CONTRASEÑA</a>
+  </div>
+</ion-content>

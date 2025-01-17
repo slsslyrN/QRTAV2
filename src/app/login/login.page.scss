@@ -1,0 +1,42 @@
+ion-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .app-logo {
+    width: 150px; /* Ajusta el tamaño según tu diseño */
+    height: 150px; /* Debe ser igual al ancho para mantener el círculo */
+    border-radius: 50%; /* Esto convierte la imagen en un círculo */
+    object-fit: cover; /* Asegura que la imagen se ajuste al contenedor */
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+  }
+  
+  ion-item {
+    margin-bottom: 20px;
+  }
+  
+  .forgot-password {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .forgot-password p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .forgot-password a {
+    color: var(--ion-color-primary);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  

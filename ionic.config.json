@@ -1,0 +1,7 @@
+{
+  "name": "APTAPT",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
